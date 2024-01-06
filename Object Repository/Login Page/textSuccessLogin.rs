@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textSuccessLogin</name>
+   <tag></tag>
+   <elementGuidId>b3f7f553-b068-457d-a095-f88ec7e738ce</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Lanjutkan'])[1]/preceding::p[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>ecb263ea-920f-4e78-ab6f-eb931831d671</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kamu akan diarahkan secara otomatis. Jika dalam beberapa detik halaman ini belum berpindah, klik link “Lanjutkan” di bawah.</value>
+      <webElementGuid>7e1503c5-9cf0-427c-9dc0-0031a7610c94</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;container&quot;]/div[@class=&quot;block-top&quot;]/p[1]</value>
+      <webElementGuid>2c134ffe-f88b-433b-b164-7a2a83a2457d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lanjutkan'])[1]/preceding::p[1]</value>
+      <webElementGuid>976023ec-dcea-4915-896f-26bfb0194332</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::p[2]</value>
+      <webElementGuid>2d9525ff-bc09-4f55-923a-db4626d22c4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Kamu akan diarahkan secara otomatis. Jika dalam beberapa detik halaman ini belum berpindah, klik link “Lanjutkan” di bawah.']/parent::*</value>
+      <webElementGuid>9800988f-d76e-4ba8-8f39-7a3da96dde0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>f4bd4d9c-6a6f-4b31-bac9-f9b8c2351fa8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Kamu akan diarahkan secara otomatis. Jika dalam beberapa detik halaman ini belum berpindah, klik link “Lanjutkan” di bawah.' or . = 'Kamu akan diarahkan secara otomatis. Jika dalam beberapa detik halaman ini belum berpindah, klik link “Lanjutkan” di bawah.')]</value>
+      <webElementGuid>764bcc2d-93f2-42c6-892a-55332c9eee5f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
