@@ -18,7 +18,7 @@ Website for testing: [Kompas](https://www.kompas.com)
 
 1. Gunakan browser Firefox untuk menjalankan script dengan lebih lancar
 
-![alt text](https://drive.google.com/file/d/19e-Smrtq_JY1dXYfdnq66JE-6AuIQslc/view?usp=sharing)
+![Alt text](https://drive.google.com/file/d/19e-Smrtq_JY1dXYfdnq66JE-6AuIQslc/view?usp=sharing)
 
-![alt text](https://drive.google.com/file/d/1Yrm-rDwK84kpoaS9KXGHIYu05SWDB9HJ/view?usp=sharing)
+![Alt text](https://drive.google.com/file/d/1Yrm-rDwK84kpoaS9KXGHIYu05SWDB9HJ/view?usp=sharing)
 
