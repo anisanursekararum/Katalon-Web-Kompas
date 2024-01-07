@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Auth/TC Login Positive'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.verifyElementClickable(findTestObject('Login Page/iconProfile'))
 
 WebUI.click(findTestObject('Login Page/iconProfile'))

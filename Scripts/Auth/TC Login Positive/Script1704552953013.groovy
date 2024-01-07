@@ -75,5 +75,5 @@ String successLoginUrl = WebUI.getUrl()
 
 assert successLoginUrl.contains(GlobalVariable.baseUrl)
 
-
+WebUI.delay(5)
 
