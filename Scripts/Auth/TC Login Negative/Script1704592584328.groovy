@@ -54,6 +54,7 @@ WebUI.verifyElementVisible(findTestObject('Login Page/inputPassword'))
 def sourceData = findTestData('Data Files/Test Data/NegativeLoginData-Excel')
 
 for (def rowNumber = 1; rowNumber <= sourceData.getRowNumbers(); rowNumber++) {
+	
     email = sourceData.getValue(1, rowNumber)
 
     password = sourceData.getValue(2, rowNumber)
@@ -86,18 +87,7 @@ for (def rowNumber = 1; rowNumber <= sourceData.getRowNumbers(); rowNumber++) {
 
         WebUI.verifyElementText(findTestObject('Login Page/textErrorEmpty'), errorTextEmail)
 		
-    } //else if (email != GlobalVariable.email){
-		
-//		alertError = WebUI.getAlertText()
-		
-//		String message = findTestObject('Login Page/textInvalidCredential').getAttribute(GlobalVariable.messagesInvalidEmailFormat);
-		
-//		WebUI.verifyMatch(alertError, GlobalVariable.messagesInvalidEmailFormat, false)
-		
-		//WebUI.verifyTextPresent(GlobalVariable.messagesInvalidEmailFormat, false)
-		
-	//}
-	 else if ((email != GlobalVariable.email) || (password != GlobalVariable.password)) {
+    } else if ((email != GlobalVariable.email) || (password != GlobalVariable.password)) {
 		
 		WebUI.waitForElementVisible(findTestObject('Login Page/textInvalidCredential'), 5)
 		
