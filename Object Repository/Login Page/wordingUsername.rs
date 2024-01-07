@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>wordingUsername</name>
+   <tag></tag>
+   <elementGuidId>a802408b-02c1-4d76-86c1-2acf85b8d762</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.sso__login__name.text-nowrap</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='sso__login__name text-nowrap']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>10ed0692-9338-434d-808b-233eae237d20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sso__login__name text-nowrap</value>
+      <webElementGuid>b3ece7f4-7a72-4e45-8275-f490e95b24e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Hermonie</value>
+      <webElementGuid>6f817dbe-b0fd-462a-a5db-25738261c549</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sso__item&quot;)/a[1]/span[1]/div[@class=&quot;sso__login__detail&quot;]/div[@class=&quot;sso__login__name text-nowrap&quot;]</value>
+      <webElementGuid>e3dbc9b6-9392-4d72-b624-e69f79104cce</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='sso__item']/a/span/div/div</value>
+      <webElementGuid>45f2974f-bda3-4659-9ac5-fd652b94e4cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Koin'])[1]/following::div[4]</value>
+      <webElementGuid>336c6b8a-8a6e-45e0-a0e7-538964aed3d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mode Terang'])[1]/following::div[5]</value>
+      <webElementGuid>62f9d98d-97d0-406e-b1d1-d4d1c3954c62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='sarum4292@gmail.com'])[1]/preceding::div[1]</value>
+      <webElementGuid>09c35581-3e07-4a10-b3a4-a22ee510b02d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gabung Kompas.com+'])[1]/preceding::div[2]</value>
+      <webElementGuid>55893bfa-db83-480c-87c1-87d1fd2cae7a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Hermonie']/parent::*</value>
+      <webElementGuid>d9ab6023-526b-46ca-9af2-33a113c0e9c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/div/div</value>
+      <webElementGuid>9d582d0f-2f6e-4217-8103-4bd0d9e0852d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Hermonie' or . = 'Hermonie')]</value>
+      <webElementGuid>96f5ca0d-5714-4269-8090-0e787ba2fcd5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
