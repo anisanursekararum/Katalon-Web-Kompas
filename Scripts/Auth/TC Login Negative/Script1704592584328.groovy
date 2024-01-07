@@ -41,6 +41,8 @@ WebUI.verifyElementVisible(findTestObject('Home Page/menuLogin'))
 
 WebUI.click(findTestObject('Home Page/menuLogin'))
 
+WebUI.waitForPageLoad(3)
+
 String loginUrl = WebUI.getUrl()
 
 assert loginUrl.contains(GlobalVariable.loginUrl)
@@ -49,31 +51,61 @@ WebUI.verifyElementVisible(findTestObject('Login Page/inputEmail'))
 
 WebUI.verifyElementVisible(findTestObject('Login Page/inputPassword'))
 
-WebUI.setText(findTestObject('Login Page/inputEmail'), GlobalVariable.email)
+def sourceData = findTestData('Data Files/Test Data/NegativeLoginData-Excel')
 
-WebUI.setText(findTestObject('Login Page/inputPassword'), GlobalVariable.password)
+for (def rowNumber = 1; rowNumber <= sourceData.getRowNumbers(); rowNumber++) {
+    email = sourceData.getValue(1, rowNumber)
 
-WebUI.verifyElementClickable(findTestObject('Login Page/buttonLogin'))
+    password = sourceData.getValue(2, rowNumber)
 
-WebUI.click(findTestObject('Login Page/buttonLogin'))
+    WebUI.setText(findTestObject('Login Page/inputEmail'), email)
 
-welcomeText = ('Selamat datang,\n' + GlobalVariable.Username)
+    WebUI.setText(findTestObject('Login Page/inputPassword'), password)
 
-WebUI.verifyElementVisible(findTestObject('Login Page/wordingSuccessLogin'))
+    WebUI.verifyElementClickable(findTestObject('Login Page/buttonLogin'))
+	
+	WebUI.click(findTestObject('Login Page/buttonLogin'))
+	
+	WebUI.delay(3)
 
-WebUI.verifyElementText(findTestObject('Login Page/wordingSuccessLogin'), welcomeText)
+    if (password.isEmpty()) {
+		
+		WebUI.waitForElementVisible(findTestObject('Login Page/textErrorEmpty'), 5)
+		
+        errorTextPassword = GlobalVariable.messagesEmptyPass
 
-WebUI.verifyElementText(findTestObject('Login Page/textSuccessLogin'), GlobalVariable.messagesSuccess)
+        WebUI.verifyElementVisible(findTestObject('Login Page/textErrorEmpty'))
 
-WebUI.verifyElementVisible(findTestObject('Login Page/buttonLanjutkan'))
+        WebUI.verifyElementText(findTestObject('Login Page/textErrorEmpty'), errorTextPassword)
+		
+    } else if (email.isEmpty()) {
+		
+        errorTextEmail = GlobalVariable.messagesEmptyEmail
 
-WebUI.verifyElementClickable(findTestObject('Login Page/buttonLanjutkan'))
+        WebUI.verifyElementVisible(findTestObject('Login Page/textErrorEmpty'))
 
-WebUI.delay(5)
+        WebUI.verifyElementText(findTestObject('Login Page/textErrorEmpty'), errorTextEmail)
+		
+    } //else if (email != GlobalVariable.email){
+		
+//		alertError = WebUI.getAlertText()
+		
+//		String message = findTestObject('Login Page/textInvalidCredential').getAttribute(GlobalVariable.messagesInvalidEmailFormat);
+		
+//		WebUI.verifyMatch(alertError, GlobalVariable.messagesInvalidEmailFormat, false)
+		
+		//WebUI.verifyTextPresent(GlobalVariable.messagesInvalidEmailFormat, false)
+		
+	//}
+	 else if ((email != GlobalVariable.email) || (password != GlobalVariable.password)) {
+		
+		WebUI.waitForElementVisible(findTestObject('Login Page/textInvalidCredential'), 5)
+		
+        errorTextInvalidCredential = GlobalVariable.messagesInvalidCredential
 
-String successLoginUrl = WebUI.getUrl()
+        WebUI.verifyElementVisible(findTestObject('Login Page/textInvalidCredential'))
 
-assert successLoginUrl.contains(GlobalVariable.baseUrl)
-
-WebUI.closeBrowser()
+        WebUI.verifyElementText(findTestObject('Login Page/textInvalidCredential'), errorTextInvalidCredential)
+    }
+}
 

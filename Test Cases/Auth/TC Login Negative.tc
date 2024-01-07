@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>test</name>
+   <name>TC Login Negative</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>d6a27116-53ea-4604-97e5-e6ad88b71dd5</testCaseGuid>

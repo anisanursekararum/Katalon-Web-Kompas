@@ -42,6 +42,31 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Kamu akan diarahkan secara otomatis. Jika dalam beberapa detik halaman ini belum berpindah, klik link “Lanjutkan” di bawah.'</initValue>
-      <name>successMessages</name>
+      <name>messagesSuccess</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'KG Media ID harus diisi'</initValue>
+      <name>messagesEmptyEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Password harus diisi'</initValue>
+      <name>messagesEmptyPass</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Please enter an email address. '</initValue>
+      <name>messagesInvalidEmailFormat</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'\'.\' is used at a wrong position in \'.com\''</initValue>
+      <name>messagesInvalidEmailDomain</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'KG Media ID atau password yang kamu masukkan salah'</initValue>
+      <name>messagesInvalidCredential</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
