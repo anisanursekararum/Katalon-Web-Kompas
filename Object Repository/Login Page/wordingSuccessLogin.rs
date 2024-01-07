@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>wordingSuccessLogin</name>
+   <tag></tag>
+   <elementGuidId>8ef140f4-660d-4012-a927-fb4be360a53d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1.title</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Lanjutkan'])[1]/preceding::h1[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>6c1ed9cb-2858-4fe8-b93f-66aeafc304f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>title</value>
+      <webElementGuid>3d22be54-e7cd-4163-abc5-b047677db3c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Selamat datang, Hermonie</value>
+      <webElementGuid>2b80196f-f511-462f-b106-f1dba8a813bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;container&quot;]/div[@class=&quot;block-top&quot;]/h1[@class=&quot;title&quot;]</value>
+      <webElementGuid>c292fb4d-ba20-4e9a-9dfa-47a0964f40e7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lanjutkan'])[1]/preceding::h1[1]</value>
+      <webElementGuid>c518671b-f09e-4751-aafe-b95f15bd8ca5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::h1[1]</value>
+      <webElementGuid>3ca6da45-24b7-4b3b-a4ec-8a97290e804e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Selamat datang,']/parent::*</value>
+      <webElementGuid>7de56827-c67b-475d-8816-dcc6cd3cce53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>344ec1f7-1156-40ad-abc9-89463f4c6e9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Selamat datang, Hermonie' or . = 'Selamat datang, Hermonie')]</value>
+      <webElementGuid>70645a81-24fb-42b5-ab0d-8210397882a4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

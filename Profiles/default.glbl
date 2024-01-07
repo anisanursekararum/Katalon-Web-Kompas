@@ -4,4 +4,74 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.kompas.com/'</initValue>
+      <name>baseUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>1500</initValue>
+      <name>viewportWidth</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>880</initValue>
+      <name>viewportHeight</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://account.kompas.com/login'</initValue>
+      <name>loginUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'sarum4292@gmail.com'</initValue>
+      <name>email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Hermonie2000'</initValue>
+      <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Hermonie'</initValue>
+      <name>Username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Kamu akan diarahkan secara otomatis. Jika dalam beberapa detik halaman ini belum berpindah, klik link “Lanjutkan” di bawah.'</initValue>
+      <name>messagesSuccess</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'KG Media ID harus diisi'</initValue>
+      <name>messagesEmptyEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Password harus diisi'</initValue>
+      <name>messagesEmptyPass</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Please enter an email address. '</initValue>
+      <name>messagesInvalidEmailFormat</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'\'.\' is used at a wrong position in \'.com\''</initValue>
+      <name>messagesInvalidEmailDomain</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'KG Media ID atau password yang kamu masukkan salah'</initValue>
+      <name>messagesInvalidCredential</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Pemilu 2024'</initValue>
+      <name>keyword</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
