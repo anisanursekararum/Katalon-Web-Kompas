@@ -43,3 +43,5 @@ WebUI.click(findTestObject('Home Page/secondResult'))
 
 WebUI.verifyTextPresent(GlobalVariable.keyword, false)
 
+WebUI.closeBrowser()
+
