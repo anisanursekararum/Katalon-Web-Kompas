@@ -17,3 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser(GlobalVariable.baseUrl)
+
+WebUI.setViewPortSize(GlobalVariable.viewportWidth, GlobalVariable.viewportHeight)
+
+WebUI.verifyElementVisible(findTestObject('Home Page/inputSearch'))
+
+WebUI.verifyElementClickable(findTestObject('Home Page/buttonSearch'))
+
+WebUI.setText(findTestObject('Home Page/inputSearch'), GlobalVariable.keyword)
+
+WebUI.sendKeys(findTestObject('Home Page/buttonSearch'), Keys.chord(Keys.ENTER))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.verifyElementVisible(findTestObject('Home Page/titleSearchResult'))
+
+String titleSearchResult = ('Pencarian "' + GlobalVariable.keyword) + '"'
+
+WebUI.verifyMatch(titleSearchResult, titleSearchResult, false)
+
+WebUI.verifyElementPresent(findTestObject('Home Page/secondResult'), 0)
+
+WebUI.click(findTestObject('Home Page/secondResult'))
+
+WebUI.verifyTextPresent(GlobalVariable.keyword, false)
+
