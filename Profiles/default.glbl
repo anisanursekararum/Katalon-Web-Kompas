@@ -69,4 +69,9 @@
       <initValue>'KG Media ID atau password yang kamu masukkan salah'</initValue>
       <name>messagesInvalidCredential</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Pemilu 2024'</initValue>
+      <name>keyword</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
